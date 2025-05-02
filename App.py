@@ -63,7 +63,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Global variables
-MODEL_PATH = os.environ.get('MODEL_PATH', '/Users/assietoudrame/Downloads/IAA/tweet_sentiment_analysis/model_distilBERT')  # Absolute for local testing
+MODEL_PATH = os.environ.get('MODEL_PATH', '/Users/assietoudrame/Downloads/IAA/Analyseur_sentiment/tweet_sentiment_analysis/model_distilBERT')  # Absolute for local testing
 # For deployment, use: MODEL_PATH = './tweet_sentiment_analysis/model_distilBERT'
 MAX_LENGTH = 128
 BATCH_SIZE = 16
